@@ -1,0 +1,4 @@
+"Nikto - v2.1.5/2.1.5"
+"10.200.1.2","10.200.1.2","8080","","","","SimpleHTTP/0.6 Python/3.12.3"
+"10.200.1.2","10.200.1.2SCALAR(0x5eb515f39c60)"8080","OSVDB-0","GET","/","The anti-clickjacking X-Frame-Options header is not present."
+"10.200.1.2","10.200.1.2SCALAR(0x5eb515f39c60)"8080","OSVDB-0","HEAD","/","SimpleHTTP/0.6 appears to be outdated (current is at least 1.2)"

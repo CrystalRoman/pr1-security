@@ -1,0 +1,16 @@
+dataset_name: pr1_network_security_scan
+version: 1.0
+date: 2026-09-21
+scan_type: анализ сетевой точки входа
+target_ip: 10.200.1.2
+target_port: 8080
+target_environment: изолированная учебная сетевая среда Linux network namespace
+target_service: Python SimpleHTTPServer
+tools_used:
+  - Nmap 7.94SVN
+  - Masscan 1.3.2
+  - Nikto 2.1.5
+target_source: собственный контролируемый учебный ресурс
+github_meta_api_used: true
+github_ranges_scanned: false
+legal_scope: сканирование выполнялось только на собственном учебном ресурсе
